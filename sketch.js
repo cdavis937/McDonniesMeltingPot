@@ -40,3 +40,8 @@ function draw() {
 function mouseClicked() {
   redraw();
 }
+
+function touchStarted()
+{
+  redraw();
+}
