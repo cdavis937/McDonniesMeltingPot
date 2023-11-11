@@ -37,11 +37,7 @@ function draw() {
   //If the save function does nothing when you run the code, try updating your internet browser..or try a different browser
 }
 
-function mouseClicked() {
-  redraw();
-}
-
-function touchStarted()
+function touchEnded()
 {
   redraw();
 }
